@@ -1,0 +1,36 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: olive ;
+}
+h1{ 
+    font-size: 60pt;
+    color: cadetblue;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{ 
+    font-size: 60pt;
+    color: cadetblue;
+    text-align: center;
+}
+
+h3{ 
+    font-size: 40pt;
+    color: darksalmon;
+    text-align: left;
+}
+
+h4{
+        font-size: 15pt;
+        color: black;
+        text-align: left;
+        font-weight: lighter;
+}
+
+a{ 
+    color: white;
+
+}
