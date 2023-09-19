@@ -1,0 +1,100 @@
+html {
+    background-color: coral;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+head {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100pt;
+    font-weight: bold;
+    color: slateblue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: thin;
+    color: darkolivegreen;
+    text-align: left;
+    margin: 5rem;
+}
+h3 {
+    font-size: 16pt;
+    font-weight: thin;
+}
+
+h4 { 
+    font-size: 16pt;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 16pt;
+    font-weight:bold;
+}
+
+h6 { 
+    font-size: 16pt;
+    font-style: italic;
+}
+
+h7 {
+    font-size: 16pt;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+}
+
+h8 {
+        font-size: 16pt;
+        font-weight: normal;
+        letter-spacing: -0.05em;
+}
+
+h9 {
+    font-size: 16pt;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h10 {
+    font-size: 16pt;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+h11 {
+    font-size: 16pt;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+h12 {
+    font-size: 16pt;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+h13 {
+    font-size: 16pt;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+h14 {
+    font-size: 16pt;
+    font-weight: normal;
+    text-decoration: overline;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+    color: slateblue;
+    text-align: center;
+
+}
