@@ -5,14 +5,14 @@ html {
     background-color: olive ;
 }
 h1{ 
-    font-size: 50pt;
+    font-size: 60pt;
     color: cadetblue;
     font-style: italic;
     text-align: center;
 }
 
 h2{ 
-    font-size: 50pt;
+    font-size: 60pt;
     color: cadetblue;
     text-align: center;
 }
@@ -30,13 +30,21 @@ h4{
         font-weight: lighter;
 }
 
+h5 {
+    font-size: 20pt;
+    font-style: italic;
+    font-style: thin;
+    text-align: center;
+    color: cadetblue;
+}
+
+h6 {
+    text-align: center;
+    font-size: 15pt;
+}
+
 a{ 
     color: white;
-
 }
 
-.column{ 
-    width: 30%;
-    float: left;
-    
-}
+
