@@ -1,0 +1,233 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: olive ;
+}
+h1{ 
+    font-size: 60pt;
+    color: darksalmon;
+    font-style: italic;
+    text-align: center;
+    line-height: 6rem;
+}
+
+h2{ 
+    font-size: 60pt;
+    color: darksalmon;
+    text-align: center;
+    line-height: 6rem;
+}
+
+h3{ 
+    font-size: 30pt;
+    color: darksalmon;
+    text-align: center;
+    line-height: 2rem;
+}
+
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 20pt;
+    font-style: italic;
+    font-style: thin;
+    text-align: center;
+    color: darksalmon;
+}
+
+h6 {
+    text-align: left;
+    font-size: 20pt;
+}
+
+h7 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{ 
+    color: white;
+}
+
+.step1{
+    background-color: white;
+    opacity: 60%;
+}
+.header{
+    background-color: lightblue;
+    box-shadow: 10px 25px darksalmon;
+    box-shadow: ;
+}
+.grid {
+    display: grid;
+    grid-template-columns:10fr 10fr;
+    padding: 0;
+    margin: auto;
+}
+
+.grid li{
+    width: 95%;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+ul.grid {
+    display: grid;
+    grid-template-columns:10fr 10fr;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%;
+  line-height: 0.8rem;
+  column-count: 2 600px;
+  column-rule-style: solid;
+  column-rule-color: aliceblue;
+  padding: 20px;
+  max-width: 80%;
+}
+.column2 {
+    flex: 50%;
+    line-height: 0.8rem;
+    column-count: 2 600px;
+    column-rule-style: solid;
+    column-rule-color: aliceblue;
+    border-left: solid 10px olive;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.nutrition{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16pt;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+}
+.ingredients{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16pt;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer {
+    background-color: lightblue;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+  @media (max-width:1600px){
+    html {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }  
+    .column2 {
+        flex: 50%;
+        line-height: 0.8rem;
+        column-count: 2 600px;
+        column-rule-style: solid;
+        column-rule-color: aliceblue;
+        border-left: solid 10px olive;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-right: auto;
+    }
+  }
+
+  @media (max-width:1100px){
+    html {
+        float: left;
+        display: flex;
+        margin-right: 5px;
+        margin-left: 5px;
+    } 
+    .column1 {
+        flex: 50%;
+        line-height: 0.8rem;
+        column-count: 2 600px;
+        column-rule-style: solid;
+        column-rule-color: aliceblue;
+        border-left: solid 10px olive;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        /* position: absolute;
+        margin-top: 300px; */
+    }
+    .column2 {
+        flex: 50%;
+        line-height: 0.8rem;
+        column-count: 2 600px;
+        column-rule-style: solid;
+        column-rule-color: aliceblue;
+        border-left: solid 10px olive;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .nutrition{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 10pt;
+        color: black;
+        text-align: center;
+        font-weight: 400;
+    }
+    .ingredients{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 10pt;
+        color: black;
+        text-align: center;
+        font-weight: 400;
+    }
+    h6 {
+        text-align: center;
+        font-size: 13pt;
+        line-height: 0.001rem;
+    }
+}
+
+
+    /* #row2{
+        margin-top: 10rem;
+        margin-bottom:10rem;
+     position: absolute;
+        margin-top: 700px; 
+        display: block;
+        } */
+    /* #row1{
+        margin-top: 10rem;
+        margin-bottom:10rem;
+        /* position: absolute;
+        margin-top: 700px; 
+        display: block;
+    } */
+    }

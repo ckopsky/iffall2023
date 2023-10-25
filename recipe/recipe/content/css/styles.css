@@ -1,0 +1,58 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: olive ;
+}
+h1{ 
+    font-size: 60pt;
+    color: cadetblue;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{ 
+    font-size: 60pt;
+    color: cadetblue;
+    text-align: center;
+}
+
+h3{ 
+    font-size: 40pt;
+    color: darksalmon;
+    text-align: left;
+}
+
+h4{
+        font-size: 15pt;
+        color: black;
+        text-align: left;
+        font-weight: lighter;
+}
+
+h5 {
+    font-size: 20pt;
+    font-style: italic;
+    font-style: thin;
+    text-align: center;
+    color: cadetblue;
+}
+
+h6 {
+    text-align: center;
+    font-size: 15pt;
+}
+
+a{ 
+    color: white;
+}
+
+@media (min-width: 640px) {
+    .two-columns-example{
+        display: flex;
+    }
+    .two-columns-example>*{
+        width: 50%;
+    }
+    html { font-size: 16pt; }
+  }
