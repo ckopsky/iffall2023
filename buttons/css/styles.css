@@ -1,0 +1,364 @@
+
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+    box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+	transition: all .2s;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+a#btn_indiegogo {
+	display: inline-block;
+	position: relative;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+	transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #eb1478;
+	transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+a#btn_indiegogo span {
+	position: relative;
+	z-index: 10;
+}
+
+a#btn_pastaria {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 0px 40px 0 40px;
+	background-color: rgb(240, 73, 36);
+	border: 2px solid rgb(240, 73, 36);
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Dawning of a New Day', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+a#btn_pastaria:hover {
+	background-color: #fff;
+	color: rgb(240, 73, 36);
+	padding: 0px 40px 0 40px;
+}
+
+#btn_pastaria .fa-utensils {
+    color: rgb(240, 73, 36);
+    transition: all 0.5s;
+    font-size: 1px;
+}
+
+#btn_pastaria:hover .fa-utensils  {
+    font-size: 25pt;
+    color: rgb(240, 73, 36);
+}
+
+
+#btn_mj{
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #173205;;
+    color: #fff; 
+    text-decoration: none;
+    font-family: 'Satisfy', cursive;
+    transition: all .2s;
+    font-size: 30pt;
+}
+
+
+#btn_mj:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #173205;
+    transition: all .5s;
+}
+a#btn_mj:hover {
+    color: #92a187;
+}
+
+#btn_mj:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 6%;
+}
+
+a#btn_mj span {
+    position: relative;
+    z-index: 10;
+}
+
+#btn_oldnavy{
+    font-family: 'League Gothic', sans-serif;
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 36px 66px 37px;
+    background-color: rgb(12, 26, 72);
+    color: white;
+    font-size: 41px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 100%;
+    transition: all 1s;
+}
+
+
+#btn_oldnavy:hover {
+    transition: all 1s;
+}
+
+#btn_oldnavy .fa-shop {
+    color: #fff;
+    transition: all 0.5s;
+    font-size: 0px;
+}
+
+#btn_oldnavy:hover .fa-shop  {
+    font-size: 25pt;
+    color: #fff;
+}
+
+.btn_newyorker{
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	font-size: 30px;
+	font-family: "adobe-caslon-pro", serif;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	transition: all .9s;
+	color:#000
+  }
+
+.btn_newyorker:hover{
+	color: #8b8b8b;
+	text-shadow: black;
+	font-weight: 650;
+	letter-spacing: 3px;
+	transition: .4s;
+}
+
+.btn_fitbit{
+	font-size: 2em;
+	position:relative;
+	color: rgb(255, 255, 255);
+	background-color: #00A5AE;
+	padding: 20px;
+	text-decoration: none;
+	border-radius: 60%;
+	
+	display: inline-block;
+	box-sizing: border-box;
+	margin-top: 80px;
+  
+	font-family: "montserrat", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	transition: all .5s;
+	
+}
+
+.btn_fitbit:hover{
+	color:  #00A5AE;
+	background-color: white;
+	transform: scale(135%);
+	transition: .6s;
+}
+
+.npr {
+    display: flex;
+    margin-top: 80px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.one {
+    background-color: rgba(215, 32, 34, 255);
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.two {
+    background-color: rgba(1, 0, 5, 255);
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.three {
+    background-color: rgba(35, 122, 189, 255);
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#btn_npr {
+    text-decoration: none;
+}
+
+.one:hover {
+    background-color: white;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.two:hover {
+    background-color: white;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.three:hover {
+    background-color:  Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#87e0fd+0,002a6d+0,bed5db+99 
+    background: linear-gradient(to right,  rgba(135,224,253,1) 0%,rgba(0,42,109,1) 0%,rgba(190,213,219,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ ;*/
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
