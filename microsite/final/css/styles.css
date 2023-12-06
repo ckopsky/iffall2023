@@ -225,6 +225,7 @@ nav {
   
   #col4img{
     margin-top: 15px;
+    margin-bottom: 15px;
   }
   
   #col5box1{
@@ -611,8 +612,6 @@ nav {
     margin-top: 10px;
   }
 
-
-
   #album-name {
     font-size: 20px;
     margin-left: 50%;
@@ -620,7 +619,9 @@ nav {
   }
 
   #album-name-left {
-    margin-left: 36%;
+    margin-left: 33%;
+    font-size: 20px;
+    margin-top: 5px;
   }
 
 }
@@ -650,7 +651,6 @@ nav {
     width: 100%;
   }
 
-
   header {
     padding-top: 40px;
   }
@@ -668,9 +668,9 @@ nav {
     margin-top: 40px;
   }
 
-#life-career-headers {
+  #life-career-headers {
   font-size: 25px;
-}
+  }
 
  .content img {
     width: 0%;
@@ -685,9 +685,6 @@ nav {
   }
 
   .container::after {
-    /* width: 138px; */
-
-    /* width: 100%; */
     height: 4px;
     margin: auto;
     position: absolute;
@@ -861,8 +858,6 @@ nav {
   h2 {
     margin-left: 50%;
   }
-
-
 
   nav {
     font-size: 12px;
@@ -1162,197 +1157,3 @@ nav {
 
 
 }
-
-/* @media (min-width: 600px) {
-
-  nav {
-    font-size: 12px;
-    gap: 0;
-  }
-
-  .heading-text {
-    font-size: 90px;
-  }
-
-  footer{
-    font-size: 10px;
-    gap: 0px;
-    text-align: center;
-    height: 70px;
-    padding-top: 11px;
-    width: 100%;
-  }
-
- .content img {
-    width: 0%;
-  }
-
-  ::before{
-    content: " ";
-    height: 20px;
-    position: absolute;
-    top: 22px;
-    width: 20px;
-    z-index: 1;
-    right: 30px;
-    border: medium rgb(158, 196, 219);
-    border-width: 10px 0 10px 10px;
-    border-color: rgb(158, 196, 219);
-}
-
-  ::after {
-    z-index: -1;
-  }
-
-  .container {
-    padding-right: 0px;
-  }
-
-  .container::after {
-    height: 4px;
-    margin: auto;
-  }
-
-  .right::after {
-    width: 50%;
-  }
-
-  .left::after {
-    width: 50%;
-    color: rgb(158, 196, 219);
-  }
-
-  h2{
-    font-size: 35px;
-    margin-left: 50%;
-    margin-top: 10px;
-  }
-
-  #album-name {
-    font-size: 20px;
-    margin-left: 50%;
-    margin-top: 5px;
-  }
-
-  #album-name-left {
-    font-size: 20px;
-    margin-left: -5%;
-    margin-top: 5px;
-    position: sticky;
-  }
-
-  #left-year {
-    margin-left: 10%;
-  }
-
-
-}
-
-@media (min-width: 750px) {
-
-
-}
-
-
-
- */
-
-
-
-
-
-/*   
-  .container-left {
-    right: 90%;
-  }
-
-  .container-right {
-    right: 90%;
-  } */
-
-  /* The circles on the timeline */
-  /* .container::after {
-    content: '';
-    /* position: absolute; */
-    /* width: 45px; 
-    height: 45px;
-    right: 50%;
-    left: 50%;
-    background-color: rgb(158, 196, 219);
-    border: 6px solid rgb(158, 196, 219);
-    top: 10px;
-    /* border-radius: 50%;
-    z-index: 1;
-   */
-
-  /* Place the container to the left
-  .left {
-    left: 0;
-  }
-  
-  /* Place the container to the right 
-  .right {
-    left: 0; 
-  } */
-  
-  /* Add arrows to the left container (pointing right)
-  .left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-  } 
-
-  /* Add arrows to the right container (pointing left)
-  .right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  } */
-  
-  /* Fix the circle for containers on the right side
-  .right::after {
-    left: -16px;
-    z-index: -1;
-  } */
-  
-
-  /* Make sure that all arrows are pointing leftwards
-    .container::before {
-      left: 60px;
-      border: medium solid white;
-      border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
-    }
-   */
-  /* Make sure all circles are at the same spot 
-    .left::after {
-      right: -37px;
-      z-index: -1;
-    }
-    
-    .right::after {
-      right: -37px;
-    } */
-  
-  /* Make all right containers behave like the left ones */
-    /* .right {
-      left: 0%;
-    } */
-/* 
-    #album-name-left{
-      margin-left: -53.5%;
-    } */
