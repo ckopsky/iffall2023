@@ -1,0 +1,1358 @@
+.heading-text{
+    font-family: 'Karla', sans-serif;
+    font-style: regular;
+    font-size: 150px;
+    text-align: center;
+}
+  
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+header {
+ background-color: white;
+ padding: 0px;
+ text-align: center;
+ padding-top: 40px;
+}
+  
+nav {
+  background-color: rgb(158, 196, 219);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  gap: 140px; 
+  font-size: 23px;
+  font-family: 'Karla', sans-serif;
+}
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: rgb(158, 196, 219);
+  }
+
+   #home-nav {
+    background-color: white;
+    color:rgb(158, 196, 219) ;
+  }
+
+  #life-career-nav {
+    background-color: white;
+    color:rgb(158, 196, 219) ;
+  }
+
+  #artistry-nav {
+    background-color: white;
+    color:rgb(158, 196, 219) ;
+  }
+
+  #albums-nav {
+    background-color: white;
+    color:rgb(158, 196, 219) ;
+  }
+  
+  .home-image img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  
+   
+  #home-page-grid {
+    display: flex;
+  }
+
+  #home-page-grid img {
+    perspective: 1000px;
+  }
+
+  #home-page-grid img:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .front{
+    backface-visibility: hidden;
+  }
+
+  .back{
+    backface-visibility: hidden;
+
+  }
+
+  
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+    
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  .blue-boxes {
+    background-color: rgb(158, 196, 219);
+    opacity: 100%;
+  }
+  
+  .light-boxes{
+    background-color: rgb(212, 190, 168);
+    opacity: 100%;
+  }
+  
+  .dark-boxes{
+    background-color: rgb(178, 146, 123);
+    opacity: 100%;
+  }
+  
+  #col1box1{
+    margin-top: 150px;
+    height: 200px;
+  }
+  
+  #col1box2{
+    margin-top: 15px;
+    height: 50px;
+  }
+  
+  #col1box3{
+    margin-top: 15px;
+    height: 150px;
+  }
+  
+  #col1box4{
+    margin-top: 15px;
+    height: 150px;
+  }
+  
+  #col1box5{
+    margin-top: 15px;
+    height: 90px;
+  }
+  
+  #col2box1{
+    margin-top: 15px;
+    height: 100px;
+  }
+  
+  #col2box2{
+    margin-top: 15px;
+    height: 50px;
+  }
+  
+  #col2box3{
+    margin-top: 15px;
+    height: 200px;
+  }
+  
+  #col2img{
+    margin-top: 15px;
+  }
+
+  #col2img2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  #col2img1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  #col3box1{
+    margin-top: 15px;
+    height: 150px;
+  }
+
+  #col3box1-1{
+    margin-top: 15px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  
+  #col3box2{
+    margin-top: 15px;
+    height: 200px;
+  }
+  
+  #col3box3{
+    margin-top: 15px;
+    height: 104px;
+  }
+
+  #col3img{
+    margin-top: 15px;
+  }
+  
+  #col4box1{
+    height: 150px;
+    margin-top: 15px;
+  }
+  
+  #col4box2{
+    margin-top: 15px;
+    height: 200px;
+  }
+  
+  #col4box3{
+    margin-top: 15px;
+    height: 150px;
+  }
+
+  #col4box3-1{
+    margin-top: 15px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  
+  
+  #col4img{
+    margin-top: 15px;
+  }
+  
+  #col5box1{
+    margin-top: 100px;
+    height: 250px;
+  }
+  
+  #col5box2{
+    margin-top: 15px;
+    height: 200px;
+  }
+  
+  #col5box3{
+    margin-top: 15px;
+    height: 150px;
+  }
+  
+  #col5box4{
+    margin-top: 15px;
+    height: 150px;
+  }
+  
+  .body-text{
+    display: block;
+    padding: 10px;
+    font-weight: normal;
+    padding: 15px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+
+  #life-career-headers{
+    color: rgb(178, 146, 123);
+    padding-top: 15px;
+    font-style: bold;
+    font-style: italic;
+    font-size: 40px;
+  }
+
+  #life-career-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #life-career-page-grid {
+    display: flex;
+  }
+ 
+  #lifeimg1{
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  #lifeimg2{
+    padding-top: px;
+    width: 100%;
+  }
+  
+  #lifeimg3{
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  #lifeimg3-1{
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  #life-career-quote {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border: 200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 100px; 
+    margin-right: 100px;
+    padding: 5px;
+    border: 2px solid rgb(158, 196, 219);
+    background-color: rgb(158, 196, 219);
+  }
+  
+  h2{
+    font-family: 'Karla', sans-serif;
+    font-style: Light 300;
+    font-size: 20px;
+    margin-bottom: 0%;
+  }
+  
+  #artistry-content{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Karla', sans-serif;
+    font-style: Light 300;
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    margin: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  
+  h4{
+    font-size: 150px;
+    padding:0;
+  }
+  
+  h5{
+    font-size: 100px;
+    padding:0;
+  }
+  
+  
+  
+.artistry-text {
+    display: flex;
+    /* flex-direction: column; */
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+#artistry-images {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#artistry-images img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+  #artistry-pic-1{
+    /* width: 100%; */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  
+  #artistry-row {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* display: flex; */
+  }
+  
+  .artistry-quote1{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+  }
+  
+  
+  .special-text{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(212, 190, 168);
+  }
+
+  #artistry-quote2{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(212, 190, 168);
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  #artistry-page-grid {
+    display: flex;
+  }
+  
+  #artistry-last{
+    
+    justify-content: space-between;
+  }
+  
+  #artistry-col1box1{
+    height: 90px;
+    margin-top: 15px;
+  }
+  
+  #artistry-col1box2{
+    height: 75px;
+    margin-top: 15px;
+  }
+  
+  #artistry-col1box3{
+    height: 135px;
+    margin-top: 15px;
+  }
+  
+  #artistry-col2box1{
+    height: 90px;
+    margin-top: 15px;
+  }
+  #artistry-col2box2{
+    height: 115px;
+    margin-top: 15px;
+  }
+  
+  #artistry-col2box3{
+    height: 95px;
+    margin-top: 15px;
+  }
+  
+  #artistry-col3box1{
+    height: 125px;
+    margin-top: 15px;
+  }
+  #artistry-col3box2{
+    height: 75px;
+    margin-top: 15px;
+  }
+  
+  #artistry-col3box3{
+    height: 100px;
+    margin-top: 15px;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+
+   .timeline::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    background-color: rgb(158, 196, 219);
+    top: 10px;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+  } 
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+  }
+
+  /* .content img{
+    width: 100%;
+    justify-content: center;
+  } */
+  
+  
+  /* Full-width containers */
+    .container {
+      width: 100%;
+      padding-left: 75px;
+      padding-right: 25px;
+    } 
+  
+  
+  
+    iframe{
+      justify: 100%;
+      z-index: 50;
+    }
+
+
+    hr{
+      background-color: rgb(158, 196, 219);
+      height: 20px;
+      width: 60%;
+      border: none;
+    }
+
+    #first-tab {
+      float: right;
+    }
+
+    #second-tab {
+      float: left;
+    }
+
+    #third-tab {
+      float: right;
+    }
+
+  footer{
+    height: 100px;
+    width: 100%;
+    color: rgb(212, 190, 168);
+    background-color:  rgb(178, 146, 123);
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    gap: 70px;
+    /* position: fixed; */
+    bottom: 0;
+  }
+ 
+
+
+    
+/* 
+  This is where media queries begin. */
+
+@media (min-width: 1024px) {
+  nav{
+    font-size: 23px;
+    gap: 90px;
+  }
+
+  footer{
+    height: 150px;
+    padding-top: 30px;
+  }
+
+  #life-career-page-grid{
+    height: 1000px;
+  } 
+
+  .below-grid{
+    padding-top: 20px;
+    margin-top: 80px;
+  }
+
+  #album-name-left {
+    margin-left: 32%;
+  }
+  
+}
+
+@media (min-width: 1400px){
+  .below-grid {
+    padding-top: 40px;
+  }
+
+  #life-career-page-grid {
+    height: 800px;
+  }
+
+  #left-year {
+    margin-left: 38%;
+    margin-right:auto;
+  }
+
+  .below-grid{
+    padding-top: 20px;
+    margin-top: 80px;
+  }
+
+  h2{
+    font-size: 35px;
+    margin-left: 50%;
+    margin-top: 10px;
+  }
+
+
+
+  #album-name {
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 5px;
+  }
+
+  #album-name-left {
+    margin-left: 36%;
+  }
+
+}
+
+
+
+
+@media (max-width: 450px) {
+  nav {
+    font-size: 12px;
+    gap: 0;
+  }
+
+  .heading-text {
+    font-size: 75px;
+  }
+  #header-img{
+    padding-top: 36px;
+  }
+
+  footer{
+    font-size: 8px;
+    gap: 0px;
+    text-align: center;
+    height: 70px;
+    padding-top: 15px;
+    width: 100%;
+  }
+
+
+  header {
+    padding-top: 40px;
+  }
+
+  .heading-text {
+    font-size: 60px;
+  }
+
+  .body-text{
+  font-size: 13px;
+  margin: auto;
+  }
+
+  .below-text {
+    margin-top: 40px;
+  }
+
+#life-career-headers {
+  font-size: 25px;
+}
+
+ .content img {
+    width: 0%;
+  }
+
+  ::after {
+    z-index: -1;
+  }
+
+  .container {
+    padding-right: 0px;
+  }
+
+  .container::after {
+    /* width: 138px; */
+
+    /* width: 100%; */
+    height: 4px;
+    margin: auto;
+    position: absolute;
+  }
+
+  .right::after {
+    /* right: 140px; */
+    width: 50%;
+  }
+
+  .left::after {
+    /* right: 74px;  */
+    width: 50%;
+  }
+
+  h2{
+    font-size: 35px;
+    margin-left: 50%;
+    margin-top: 10px;
+  }
+
+  #album-name {
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 5px;
+  }
+
+  #album-name-left {
+    font-size: 20px;
+    margin-left: -53.5%;
+    margin-top: 5px;
+    position: sticky;
+  }
+
+  #left-year {
+    margin-left: -25%;
+  }
+  #life-career-page-grid{
+    height: 450px;
+  } 
+
+  #artistry-content {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .artistry-text{
+    font-size: 12px;
+  }
+
+  .special-text{
+    font-size: 12px;
+  }
+
+  .artistry-quote1{
+    font-size: 18px;
+  }
+
+  .artistry-quote2{
+    font-size: 18px;
+  }
+
+  #artistry-row {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 1400px)  {
+  #left-year {
+    margin-left: -20%;
+  }
+
+  #album-name-left {
+    margin-left: -47.5%;
+  }
+}
+
+
+
+
+@media (min-width: 450px) and (max-width: 1400px) {
+  nav {
+    font-size: 14px;
+    gap: 0;
+  }
+
+  .heading-text {
+    font-size: 60px;
+  }
+
+  #header-img{
+    padding-top: 40px;
+  }
+  
+  .below-grid{
+    padding-top: 20px;
+    margin-top: 80px;
+  }
+
+  #life-career-page-grid{
+    height: 450px;
+  } 
+
+  .body-text{
+    font-size: 15px;
+  }
+
+  #life-career-quote {
+    font-size: 10px;
+  }
+
+  footer{
+    font-size: 10px;
+    gap: 0px;
+    text-align: center;
+    
+    height: 70px;
+    padding-top: 11px;
+    width: 100%;
+  }
+
+ .content img {
+    width: 0%;
+  }
+
+  ::after {
+    z-index: -1;
+  }
+
+  .container {
+    padding-right: 0px;
+  }
+
+  .container::after {
+    height: 4px;
+    margin: auto;
+    position: absolute;
+  }
+
+  .right::after {
+    width: 50%;
+  }
+
+  .left::after {
+    width: 50%;
+  }
+
+  h2{
+    font-size: 35px;
+    margin-left: 50%;
+    margin-top: 10px;
+  }
+
+  #album-name {
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 5px;
+  }
+
+  #album-name-left {
+    font-size: 20px;
+    margin-left: -5%;
+    margin-top: 5px;
+    position: sticky;
+  }
+
+  #left-year {
+    margin-left: 10%;
+  }
+  h2 {
+    margin-left: 50%;
+  }
+
+
+
+  nav {
+    font-size: 12px;
+    gap: 0;
+  }
+  
+  #album-name-left {
+    font-size: 20px;
+    margin-left: -5%;
+    margin-top: 5px;
+    position: sticky;
+  }
+
+  #left-year {
+    margin-left: 10%;
+  }
+  footer{
+    font-size: 10px;
+    gap: 0px;
+    text-align: center;
+    height: 70px;
+    padding-top: 11px;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 860px) and (max-width: 1400px) {
+  #left-year {
+   
+    margin-left: 35%;
+  }
+  #album-name-left {
+    margin-left: 29%;
+  }
+
+  .below-grid{
+    padding-top: 20px;
+    margin-top: 80px;
+  }
+}
+
+
+ /* @media (min-width: 900px) and (max-width: 1400px) {
+  #left-year {
+   
+    margin-left: 25%;
+  }
+  #album-name-left {
+    margin-left: 17%;
+  }
+
+}  */
+
+@media (min-width: 500px) and (max-width: 1400px) {
+  .heading-text {
+    font-size: 70px;
+  }
+
+  #life-career-page-grid{
+    height: 500px;
+  } 
+
+  .body-text{
+    font-size: 16px;
+  }
+
+  #left-year {
+    margin-right: 60%; 
+  }
+
+  #album-name-left {
+    margin-left: 1%;
+  }
+}
+
+@media (max-width: 550px) {
+#life-career-quote {
+  font-size: 11px;
+}
+}
+
+@media (min-width: 550px) {
+  #life-career-quote {
+    font-size: 11px;
+  }
+}
+
+
+@media (min-width: 860px) and (max-width: 1000px){
+
+.below-grid{
+    padding-top: 20px;
+    margin-top: 200px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px){
+
+  .below-grid{
+      padding-top: 20px;
+      margin-top: 200px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+
+    .below-grid{
+        padding-top: 20px;
+        margin-top: 315px;
+      }
+}
+    
+  
+
+
+@media (min-width: 650px) and (max-width: 840px) {
+  .heading-text{
+    font-size: 100px;
+  }
+
+  footer{
+    font-size: 11px;
+  }
+
+  #life-career-page-grid{
+    height: 650px;
+  } 
+
+  .body-text{
+    font-size: 18px;
+  }
+
+  #life-career-quote {
+    font-size: 13px;
+  }
+
+  #left-year {
+    /* margin-right: 60%;  */
+    margin-left: 25%;
+  }
+  #album-name-left {
+    margin-left: 17%;
+  }
+
+ 
+}
+
+@media (min-width: 100px)and (max-width: 300px) {
+  #left-year {
+    margin-left: -25%;
+  }
+  #album-name-left {
+    margin-left: -55%;
+  }
+
+  #artistry-content{
+    margin-left: 60px;
+    margin-right: 60px;
+ }
+  
+  
+}
+
+@media (min-width: 300px)and (max-width: 450px) {
+  #left-year {
+    margin-left: -5%;
+  }
+  #album-name-left {
+    margin-left: -25%;
+  }
+}
+
+
+
+@media (min-width: 840px)and (max-width: 1000px) {
+  #left-year {
+    margin-left: 31%;
+  }
+  #album-name-left {
+    margin-left: 25%;
+  }
+}
+
+@media (min-width: 1000px)and (max-width: 1200px) {
+  #left-year {
+    margin-left: 35%;
+  }
+  #album-name-left {
+    margin-left: 30%;
+  }
+}
+
+@media (min-width: 1200px)and (max-width: 1400px) {
+  #left-year {
+    margin-left: 35%;
+  }
+  #album-name-left {
+    margin-left: 30%;
+  }
+}
+
+
+
+
+
+@media (min-width: 850px) {
+  .heading-text{
+    font-size: 125px;
+  }
+
+  nav{
+    font-size: 23px;
+  }
+
+  #life-career-quote {
+    font-size: 15px;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .heading-text{
+    font-size: 140px;
+  }
+
+  nav{
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 600px) {
+  nav {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 750px) {
+  nav {
+    font-size: 19px;
+  }
+}
+
+
+@media (max-width: 650px) {
+
+  #col1box1{
+    opacity: 0;
+    width: 0;
+    visibility: collapse;
+  }
+
+  #col1box2{
+    opacity: 0;
+    width: 0;
+  }
+
+  #col1box3{
+    opacity: 0;
+    width: 0;
+  }
+
+  #col1box4{
+    opacity: 0;
+    width: 0;
+  }
+
+  #col1box5{
+    opacity: 0;
+    width: 0;
+  }
+
+  #col5box1 {
+    opacity: 0;
+    width: 0;
+  }
+
+  #col5box2 {
+    opacity: 0;
+    width: 0;
+  }
+
+  #col5box3 {
+    opacity: 0;
+    width: 0;
+  }
+
+  #col5box4 {
+    opacity: 0;
+    width: 0;
+  }
+
+  #col5box5 {
+    opacity: 0;
+    width: 0;
+  }
+
+
+}
+
+/* @media (min-width: 600px) {
+
+  nav {
+    font-size: 12px;
+    gap: 0;
+  }
+
+  .heading-text {
+    font-size: 90px;
+  }
+
+  footer{
+    font-size: 10px;
+    gap: 0px;
+    text-align: center;
+    height: 70px;
+    padding-top: 11px;
+    width: 100%;
+  }
+
+ .content img {
+    width: 0%;
+  }
+
+  ::before{
+    content: " ";
+    height: 20px;
+    position: absolute;
+    top: 22px;
+    width: 20px;
+    z-index: 1;
+    right: 30px;
+    border: medium rgb(158, 196, 219);
+    border-width: 10px 0 10px 10px;
+    border-color: rgb(158, 196, 219);
+}
+
+  ::after {
+    z-index: -1;
+  }
+
+  .container {
+    padding-right: 0px;
+  }
+
+  .container::after {
+    height: 4px;
+    margin: auto;
+  }
+
+  .right::after {
+    width: 50%;
+  }
+
+  .left::after {
+    width: 50%;
+    color: rgb(158, 196, 219);
+  }
+
+  h2{
+    font-size: 35px;
+    margin-left: 50%;
+    margin-top: 10px;
+  }
+
+  #album-name {
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 5px;
+  }
+
+  #album-name-left {
+    font-size: 20px;
+    margin-left: -5%;
+    margin-top: 5px;
+    position: sticky;
+  }
+
+  #left-year {
+    margin-left: 10%;
+  }
+
+
+}
+
+@media (min-width: 750px) {
+
+
+}
+
+
+
+ */
+
+
+
+
+
+/*   
+  .container-left {
+    right: 90%;
+  }
+
+  .container-right {
+    right: 90%;
+  } */
+
+  /* The circles on the timeline */
+  /* .container::after {
+    content: '';
+    /* position: absolute; */
+    /* width: 45px; 
+    height: 45px;
+    right: 50%;
+    left: 50%;
+    background-color: rgb(158, 196, 219);
+    border: 6px solid rgb(158, 196, 219);
+    top: 10px;
+    /* border-radius: 50%;
+    z-index: 1;
+   */
+
+  /* Place the container to the left
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right 
+  .right {
+    left: 0; 
+  } */
+  
+  /* Add arrows to the left container (pointing right)
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  } 
+
+  /* Add arrows to the right container (pointing left)
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  } */
+  
+  /* Fix the circle for containers on the right side
+  .right::after {
+    left: -16px;
+    z-index: -1;
+  } */
+  
+
+  /* Make sure that all arrows are pointing leftwards
+    .container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+   */
+  /* Make sure all circles are at the same spot 
+    .left::after {
+      right: -37px;
+      z-index: -1;
+    }
+    
+    .right::after {
+      right: -37px;
+    } */
+  
+  /* Make all right containers behave like the left ones */
+    /* .right {
+      left: 0%;
+    } */
+/* 
+    #album-name-left{
+      margin-left: -53.5%;
+    } */
