@@ -185,6 +185,10 @@ ul.grid {
     grid-template-columns:10fr;
 }
 
+#finalstep img{
+
+}
+
 /* .step5{
     background-color: white;
     opacity: 60%;
@@ -361,6 +365,10 @@ footer {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 450px) {
+
+    #finalstep{
+        padding-right: 17px;
+    }
 
 }
