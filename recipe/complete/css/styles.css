@@ -2,14 +2,48 @@ html {
     font-family: 'Raleway', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    background-color: olive ;
 }
+
+.top{
+    background-image: url(https://www.twopeasandtheirpod.com/wp-content/uploads/2021/06/Vanilla-Pudding-Chocolate-Chip-Cookies-13.jpg);
+    background-position: center;
+    background-repeat: space;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
 h1{ 
-    font-size: 60pt;
+    font-size: 30pt;
     color: darksalmon;
     font-style: italic;
     text-align: center;
-    line-height: 6rem;
+    line-height: 4rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#title {
+    margin-bottom: 20px;
+    opacity: 70%;
+}
+
+#subtitle {
+    font-size: 55pt;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-decoration: underline;
+    color: darksalmon;
+}
+
+#subtitle2{
+    font-size: 15pt;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 h2{ 
@@ -17,6 +51,7 @@ h2{
     color: darksalmon;
     text-align: center;
     line-height: 6rem;
+    margin-top: 0;
 }
 
 h3{ 
@@ -43,13 +78,40 @@ h5 {
 }
 
 h6 {
-    text-align: left;
-    font-size: 20pt;
+    text-align: center;
+    font-size: 10pt;
 }
 
 h7 {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+h8{ 
+    font-size: 26pt;
+    color: white;
+    font-weight: bold;
+    margin-top: 5;
+    margin-bottom: 10px;
+}
+
+h9{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20pt;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    flex-direction: column;
+    background-color: darksalmon;
+    padding-top: 7px;
+    height: 300px;
+    margin-top: 1000px;
+}
+
 
 a{ 
     color: white;
@@ -60,15 +122,22 @@ a{
     opacity: 60%;
 }
 .header{
-    background-color: lightblue;
-    box-shadow: 10px 25px darksalmon;
-    box-shadow: ;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
 .grid {
     display: grid;
-    grid-template-columns:10fr 10fr;
-    padding: 0;
+    grid-template-columns:10fr 10fr; 
     margin: auto;
+    background-color: darksalmon;
+    padding-top: 15px;
 }
 
 .grid li{
@@ -89,18 +158,52 @@ ul.grid {
     grid-template-columns:10fr 10fr;
 }
 
+#finalstep{
+    background-color: darksalmon;
+    /* width: 95%; */
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 15px;
+    grid-template-columns:10fr; 
+    margin: auto;
+    padding-top: 15px;
+}
+
+#finalstep li{
+    width: 95%;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#finalstep ul {
+    display: grid;
+    grid-template-columns:10fr;
+}
+
+/* .step5{
+    background-color: white;
+    opacity: 60%;
+    margin-left: 380px;
+    margin-right: 380px;
+} */
 
 .row {
   display: flex;
+  border: solid 10px darksalmon;
 }
 
 .column1 {
   flex: 50%;
-  line-height: 0.8rem;
+  line-height: 2.8rem;
   column-count: 2 600px;
   column-rule-style: solid;
   column-rule-color: aliceblue;
-  padding: 20px;
+  /* padding: 20px; */
   max-width: 80%;
 }
 .column2 {
@@ -109,14 +212,14 @@ ul.grid {
     column-count: 2 600px;
     column-rule-style: solid;
     column-rule-color: aliceblue;
-    border-left: solid 10px olive;
+    border-left: solid 10px darksalmon;
     align-items: center;
     align-content: center;
     justify-content: center;
 }
 .nutrition{
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16pt;
+    font-size: 20pt;
     color: black;
     text-align: center;
     font-weight: 400;
@@ -129,29 +232,72 @@ ul.grid {
     font-weight: 400;
 }
 
+.tips{
+    display: grid;
+    grid-template-columns:5fr 5fr; 
+    margin: auto;
+    line-height: 150%;
+    background-color: #ffcfc3;
+    font-size: 20px;
+    list-style-type: none;
+    
+}
+
+.darkbox{
+    background-color: darksalmon;
+    padding: 15px;
+}
+
+.lightbox{
+    padding: 15px;
+}
+
+#box1{
+    padding-top: 32px;
+}
+
+#box7{
+    padding-top: 32px;
+}
+
+#box10{
+    padding-top: 70px;
+}
+
+#specialtext{
+    font-weight: bold;
+    font-style: italic;
+    /* text-decoration: underline;  */
+}
+
 footer {
-    background-color: lightblue;
+    background-color: darksalmon;
     display: block;
     margin-left: 0px;
     margin-right: 0px;
-    padding-left: 40px;
+    color: white;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    height: 50px;
+    /* padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; */
 }
 
   @media (max-width:1600px){
-    html {
-        margin-right: 10rem;
-        margin-left: 10rem;
-    }  
+    /* html {
+        /* margin-right: 10rem;
+        margin-left: 10rem; 
+    }   */
     .column2 {
         flex: 50%;
         line-height: 0.8rem;
         column-count: 2 600px;
         column-rule-style: solid;
         column-rule-color: aliceblue;
-        border-left: solid 10px olive;
+        border-left: solid 10px darksalmon;
         align-items: center;
         align-content: center;
         justify-content: center;
@@ -163,8 +309,8 @@ footer {
     html {
         float: left;
         display: flex;
-        margin-right: 5px;
-        margin-left: 5px;
+        /* margin-right: 5px;
+        margin-left: 5px; */
     } 
     .column1 {
         flex: 50%;
@@ -172,7 +318,7 @@ footer {
         column-count: 2 600px;
         column-rule-style: solid;
         column-rule-color: aliceblue;
-        border-left: solid 10px olive;
+        border-left: solid 10px darksalmon;
         align-items: center;
         align-content: center;
         justify-content: center;
@@ -187,7 +333,7 @@ footer {
         column-count: 2 600px;
         column-rule-style: solid;
         column-rule-color: aliceblue;
-        border-left: solid 10px olive;
+        border-left: solid 10px darksalmon;
         align-items: center;
         align-content: center;
         justify-content: center;
@@ -215,3 +361,6 @@ footer {
     }
 }
 
+@media (max-width: 300px) {
+
+}
