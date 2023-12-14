@@ -31,7 +31,8 @@ h2{
 h3{
     text-align: center;
     font-size: 40px;
-    padding-bottom: 31px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     color: white;
 }
 
@@ -65,23 +66,31 @@ section.content_grid{
 
 
 .intro_text img{
+    border: 1px solid white;
+    float: right;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 36px;
     width: 400px;
     height: 300px;
-    float: right;
-    padding-top: 2px;
-    margin-left: 40px;
-    margin-bottom: 25px;
+    object-fit: cover;
+    margin: -0.4px;
+    margin-bottom: 1rem;
+    margin-left: 36px;
 }
 
 .intro_text p{
     font-size: 18px;
     letter-spacing: -0.14px;
-    line-height: 25.25px;
+    line-height: 24.5px;
     padding-bottom: 16px;
 }
 
 .intro_text{
     background-color: rgba(161, 218, 254, 0.943);
+    margin: auto;
+    width: 960px;
+    padding-bottom: 32px;
 }
 
 .section2_img img{
@@ -128,9 +137,9 @@ ul{
 }
 
 footer .column_container{
-    padding-top: 325px;
+    padding-top: 41px;
+    padding-bottom: 41px;
     font-size: 18px;
-    letter-spacing: -0.1px;
 }
 
 footer{
