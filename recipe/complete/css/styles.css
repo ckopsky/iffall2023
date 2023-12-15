@@ -12,7 +12,8 @@ html {
 }
 
 body{
-    margin: 0;
+    /* margin: 0; */
+    width: auto;
 }
 
 h1{ 
@@ -284,6 +285,7 @@ footer {
     padding-top: 5px;
     padding-bottom: 20px;
     height: 50px;
+    width: 100%;
     /* padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
@@ -367,21 +369,143 @@ footer {
 
 @media (max-width: 450px) {
 
-    #finalstep{
+    /* #finalstep{
         padding-right: 17px;
+    }
+/* 
+    h1{
+        font-size: 15px;
+    }
+*/
+    
+
+    html {
+        float: none;
+        display: inline-block;
+    }
+
+    #title{
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+    
+    #subtitle {
+        font-size: 60px;
+    } 
+
+    #subtitle2{
+        font-size: 12px;
+        line-height: 3;
+    }
+
+    #flex {
+        margin-bottom: 20px;
+        margin-top: 500px;
+        padding-top: 50px;
+    }
+
+    .row {
+        display: inline-block;
+    }
+
+    .column1{
+        border-left: none;
+    }
+
+    #finalstep img {
+        width: 100%;
+    }
+
+    h1{
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+
+    h8{
+        font-size: 23px;
+    }
+
+    h9{
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    .grid{
+        padding-right: 20px;
+    }
+
+    ul.grid{
+        grid-template-columns: 10fr;
+    }
+    
+
+    .column2{
+        border: none;
     }
 
     h6{
         font-size: 10pt;
     }
 
-    .nutrition{
-        font-size: 15pt;
+    .nutrition, .ingredients{
+        font-size: 12pt;
         line-height: 1.5;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
-    .ingredients{
-        font-size: 13pt;
+    h3{
+        font-size: 28px;
     }
 
+    .column1, .column2 {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .nutrition, .ingredients {
+        font-size: 14pt; /* Adjust font sizes for smaller screens */
+    }
+
+    .step1{
+        font-size: 15px;
+    }
+
+    #finalstep {
+        padding-right: 19px;
+    }
+
+    .tips{
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    #box1{
+        padding-top: 15px;
+    }
+
+    #box3{
+        background-color: darksalmon;
+    }
+
+    #box4{
+        background-color:#ffcfc3;
+    }
+
+    #box7{
+        background-color: darksalmon;
+        padding-top: 15px;
+    }
+
+    #box8 {
+        background-color: #ffcfc3;
+    }
+
+    #box10{
+        padding-top: 15px;
+    }
+
+    h6 {
+        font-size: 6pt;
+    }
 }
