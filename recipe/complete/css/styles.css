@@ -368,6 +368,34 @@ footer {
     }
 }
 
+@media (max-width: 700px) {
+
+    html{
+        align-items: center;
+    }
+
+    #finalstep img{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    h8{
+        font-size: 20px;
+    }
+
+    h9{
+        font-size: 18px;
+    }
+
+    #flex {
+        padding-top: 15px;
+        height: 220px;
+    }
+}
+
 @media (max-width: 450px) {
 
     /* #finalstep{
@@ -402,7 +430,6 @@ footer {
     #flex {
         margin-bottom: 20px;
         margin-top: 500px;
-        padding-top: 50px;
     }
 
     .row {
@@ -421,7 +448,7 @@ footer {
         font-size: 20px;
         padding-bottom: 0;
     }
-
+/* 
     h8{
         font-size: 23px;
     }
@@ -429,7 +456,7 @@ footer {
     h9{
         font-size: 19px;
         padding-bottom: 10px;
-    }
+    } */
 
     .grid{
         padding-right: 20px;
@@ -513,5 +540,12 @@ footer {
 
     footer{
         height: 50px;
+    }
+}
+
+@media (max-width: 349px) {
+
+    h8{
+        font-size: ;
     }
 }
